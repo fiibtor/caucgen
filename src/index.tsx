@@ -20,8 +20,8 @@ const caucOrPeach =  getFeeling();
 
 function Index() {
     const [labelText, setLabelText] = useState("")
-    const [speed, setSpeed] = useState(7);
-    const [delay, setDelay] = useState(2);
+    const [speed, setSpeed] = useState(8);
+    const [delay, setDelay] = useState(7);
     const [skew, setSkew] = useState(-0.25);
     const [kerning, setKerning] = useState(0);
     const [stroke, setStroke] = useState(4);
