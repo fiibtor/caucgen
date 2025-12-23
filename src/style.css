@@ -1,0 +1,93 @@
+@font-face { font-family: Typostuck; src: url('images/typostuck.ttf'); }
+@font-face { font-family: "Courier New"; src: url('images/cour.ttf'); }
+.container-sm {
+    background-color: rgba(255,115,253);
+    height: 100%;
+}
+.bottomImage {
+    display: flex;
+    justify-content: center;
+}
+* {
+    border-radius: 0 !important;
+}
+body{
+    background-image: url("images/bluetile.gif");
+    image-rendering: crisp-edges;
+    min-height: 100vh;
+    color: #f9fd6b;
+}
+a{
+    color: #f9fd6b;
+}
+.title{
+    width: 100vw;
+    overflow: clip;
+}
+form {
+    background-color: rgb(244, 0, 240);
+}
+img.outGif {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: 110px;
+    width: 100%;
+    object-fit:contain;
+}
+h1 {
+    image-rendering: auto;
+    position: relative;
+    font-family: Typostuck, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    max-width: 100vw;
+    -webkit-text-stroke-width: 0.6vw;
+    -webkit-text-stroke-color: transparent;
+    background-image: url("images/gradient.png");
+    background-size: contain;
+    background-clip: text;
+    -webkit-font-smoothing:none;
+    transform: skew(-14deg);
+    color: #ffdbac;
+}
+.CAUCASIAN {
+    font-size: 10vw;
+}
+.PEACHY {
+    font-size: 13vw;
+}
+p.subtitle {
+    position: relative;
+    font-family: Typostuck, sans-serif;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 70vw;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
+body {
+    font-family: Typostuck, Courier, monospace;
+    font-size: 18px;
+}
+button{
+  font-size: 50px;
+  padding: 0.25em 0.5em;
+  background-color: #ffdbac;
+}
+button:hover {
+  background-color: #e5c59a;
+}
+
+.title {
+    position: relative;
+}
+@media screen and (min-width: 700px) {
+     h1 {
+        font-size: 90px !important;
+         -webkit-text-stroke-width: 3.5px;
+    };
+    p.subtitle {
+        margin-left: 490px;
+    }
+}
